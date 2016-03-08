@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face
+{
+font-family: XingShu;
+src: url('../fonts/经典行书简.TTF')
+}
+
+div#main_page,html{
+	width:95%;
+	margin-left: 2.5%;
+margin-right: 2.5%;
+}
+body{
+	font-size:14px !important;
+	font-family:XingShu !important;
+	float:none !important;
+}
+
+div.main_page{
+	padding-left:3px !important;
+	padding-right:3px !important;
+}
+
+p.topbottom{
+	text-align:center;
+	font-size:18px !important;
+}
